@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>CDETS.png</string>
+			<key>Regular Expression</key>
+			<!-- <string>(?s)^.{1,1900}$</string> -->
+			<string>(?s)^CSCu[rq][0-9]{1,5}$</string>
+			<key>Title</key>
+			<string>CDETS</string>
+			<key>URL</key>
+			<!-- <string>http://www.bing.com/search?q={popclip text}</string> -->
+			<string>http://cdetsweb-prd.cisco.com/apps/dumpcr?identifier={popclip text}</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://github.com/clamprey</string>
+			<key>Name</key>
+			<string>Charles Lamprey</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Search CDETS with the selected identifer.</string>
+	<key>Extension Identifier</key>
+	<string>com.bigkahunaproducts.popclip.extension.cdets</string>
+	<key>Extension Name</key>
+	<string>CDETS</string>
+</dict>
+</plist>
