@@ -6,17 +6,14 @@
 	<array>
 		<dict>
 			<key>Image File</key>
-			<string>CDETS.png</string>
+			<string>CiscoOneSearch.png</string>
 			<key>Regular Expression</key>
 			<!-- <string>(?s)^.{1,1900}$</string> -->
-			<string>(?s)^CSC[a-z][a-z][0-9]{1,5}$</string>
-			<key>Before</key>
-			<string>copy-selection</string> 
+			<string>(?s)^(.*)$</string>
 			<key>Title</key>
-			<string>CDETS</string>
+			<string>Search Cisco OneSearch</string>
 			<key>URL</key>
-			<!-- <string>http://www.bing.com/search?q={popclip text}</string> -->
-			<string>http://cdetsweb-prd.cisco.com/apps/dumpcr?identifier={popclip text}</string>
+<string>http://onesearch.cloudapps.cisco.com/searchpage?queryFilter={popclip text}</string>
 		</dict>
 	</array>
 	<key>Credits</key>
@@ -29,10 +26,10 @@
 		</dict>
 	</array>
 	<key>Extension Description</key>
-	<string>Search CDETS with the selected identifer.</string>
+	<string>Search for string on Cisco's OneSearch.</string>
 	<key>Extension Identifier</key>
-	<string>com.bigkahunaproducts.popclip.extension.cdets</string>
+	<string>com.bigkahunaproducts.popclip.extension.ciscoOneSearch</string>
 	<key>Extension Name</key>
-	<string>CDETS</string>
+	<string>SearchCiscoOneSearch</string>
 </dict>
 </plist>
